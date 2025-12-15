@@ -6,7 +6,7 @@
 
     {{-- Search + Filter --}}
     <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 mb-8">
-        <form method="GET" action="/home" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <form method="GET" action="/" class="grid grid-cols-1 md:grid-cols-3 gap-4">
 
             {{-- Search --}}
             <div class="col-span-1">
