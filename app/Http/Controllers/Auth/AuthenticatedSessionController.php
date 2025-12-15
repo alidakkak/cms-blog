@@ -38,7 +38,7 @@ class AuthenticatedSessionController extends Controller
             return redirect()->intended(route('admin.articles.index'));
         }
 
-        return redirect()->intended(route('/'));
+        return redirect()->intended('/');
     }
 
     /**
